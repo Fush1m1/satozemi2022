@@ -16,3 +16,16 @@ func MainPage() echo.HandlerFunc {
         return c.JSON(http.StatusOK, testJson)
     }
 }
+
+func GetArticles() echo.HandlerFunc  {
+	return func(c echo.Context) error {
+		articleJson := map[string]string{
+			"id":"1",
+			"title":"title1",
+			"body":"hogehogehoge",
+	}
+
+
+		return c.JSON(http.StatusOK,articleJson)
+	}
+}
