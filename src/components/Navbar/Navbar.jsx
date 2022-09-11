@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        佐藤整尚ゼミ
+        <a href="#home">
+          佐藤整尚ゼミ
+        </a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>

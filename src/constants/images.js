@@ -1,4 +1,4 @@
-import bg from '../assets/bg.png';
+//import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
@@ -23,13 +23,18 @@ import gericht from '../assets/gericht.png';
 
 import ai from '../assets/ai.png';
 import cat from '../assets/icon-cat_color.png';
-import candles from '../assets/candles.png';
+import pleaseWait from '../assets/pleaseWait.png';
+import device from '../assets/device.png';
+import sigmoid from '../assets/sigmoid.png';
+
 
 export default {
   ai,
   cat,
-  candles,
-  bg,
+  pleaseWait,
+  device,
+  sigmoid,
+  //bg,
   chef,
   G,
   gallery01,

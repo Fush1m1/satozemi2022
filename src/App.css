@@ -8,13 +8,15 @@
   align-items: center;
 }
 
-.app__bg {
-  background: url('./assets/bg.png');
+
+.app__bg { /*background: url('./assets/bg.png');*/
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
 }
+
 
 .app__wrapper {
   display: flex;

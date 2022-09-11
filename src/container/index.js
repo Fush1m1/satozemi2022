@@ -1,21 +1,21 @@
 import AboutUs from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
+import Professor from './Professor/Professor';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
-import SpecialMenu from './Menu/SpecialMenu';
+import AboutThisPage from './AboutThisPage/AboutThisPage';
 
 export {
   AboutUs,
-  Chef,
+  Professor,
   FindUs,
   Footer,
   Gallery,
   Header,
   Intro,
   Laurels,
-  SpecialMenu,
+  AboutThisPage,
 };
