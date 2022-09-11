@@ -31,7 +31,7 @@ const Header = () => (
     </div>
 
     <IconContext.Provider value={{ color: '#ccc', size: '75px'}}>
-      <h1 className="text-6xl p-10">
+      <h1 className="text-6xl p-10">{/*
         docker<SiDocker />
         kaggle<SiKaggle />
         github<SiGithub />
@@ -44,6 +44,7 @@ const Header = () => (
         linux<SiLinux />
         ethereum<SiEthereum />
         julia<SiJulia />
+*/}
       </h1>
     </IconContext.Provider>
   </div>
