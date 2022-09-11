@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from '../container';
+import { AboutUs, Professor, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from '../container';
 import { Navbar } from '../components';
 
 const Top = () => {
@@ -8,11 +8,11 @@ const Top = () => {
             <Navbar />
             <Header />
             <AboutUs />
-            {/*<SpecialMenu />
-            <Chef />
+            <Professor />
             <Intro />
-            <Laurels />
-            <Gallery />*/}
+            <Gallery />
+            {/*<SpecialMenu />
+            <Laurels />*/}
             <FindUs />
             <Footer />
         </div>
